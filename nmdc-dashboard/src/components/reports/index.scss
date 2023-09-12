@@ -1,0 +1,14 @@
+.tableContents {
+  .table {
+    margin: auto;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+  }
+  border: 1px solid black;
+  .tableRow {
+    .tableData:hover {
+      border: none;
+      transition: 0.3s;
+      background-color: #ddd;
+    }
+  }
+}
